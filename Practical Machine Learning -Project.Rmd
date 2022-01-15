@@ -1,13 +1,13 @@
 # "Practical Machine Learning -Project"
-Author: "Farzad Ravari"
+Author: "haseeb javed"
 
 # Executive Summary
 This project attempts to evelauate effect of using the devices such as Jawbone Up, Nike FuelBand, and Fitbit for collecting data information during activities for measurment of vital signe and health factors for modification of health behavior and enhance activities . Data collected from accelerometers on the belt, forearm, arm, and dumbell of 6 participants. Exploratory analysis of data includes implementation of random forests for cross predication befor and after cross validation and test set with removal of columns less tha 60% of data and thereforedata validation and building a model with cross validation and predication .
 Data source:https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv
 # Set Directory
-        setwd("C:/Users/FARZAD/Desktop/Data Science/Course 8/Project")
+        setwd("C:/Users/Haseeb/Desktop/Data Science/Course 8/Project")
         getwd()
-        [1] "C:/Users/FARZAD/Desktop/Data Science/Course 8/Project"
+        [1] "C:/Users/Haseeb/Desktop/Data Science/Course 8/Project"
   
   # Install necessary packages
   
@@ -22,8 +22,8 @@ Data source:https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv
   # Loading Data
         UrlTRN<- "http://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv"
         UrlTST  <- "http://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv"
-        fileTRN <- "C:/Users/farza/Desktop/Data Science/Course 8/Project/pml-training.csv"
-        fileTST <- "C:/Users/farza/Desktop/Data Science/Course 8/Project/pml-testing.csv"
+        fileTRN <- "C:/Users/haseeb/Desktop/Data Science/Course 8/Project/pml-training.csv"
+        fileTST <- "C:/Users/haseeb/Desktop/Data Science/Course 8/Project/pml-testing.csv"
    
    # Download the files
         download.file(url=UrlTRN, destfile=fileTRN)
